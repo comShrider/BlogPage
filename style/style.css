@@ -1,0 +1,127 @@
+/* tag selectors */
+body {
+  margin: 0;
+  background-color: #150050;
+  color: #8e05c2;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+h1 {
+  margin: 0;
+  font-size: 60px;
+}
+h5,
+h4,
+h3 {
+  margin: 0;
+}
+hr {
+  max-width: 35%;
+  border-style: none;
+  border-top-style: dashed;
+  margin: 35px 0;
+}
+a {
+  text-decoration: none;
+}
+
+/* navigation bar */
+.nav {
+  min-height: 50px;
+  background-color: #000000;
+  padding: 10px;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+.nav table {
+  margin-top: 2px;
+}
+.nav td {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* blog body */
+.blog-body {
+  background-color: #150050;
+  min-height: 1500px;
+  margin: 50px;
+  padding: 50px;
+}
+
+/* into */
+.intro {
+  float: left;
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 20px;
+  background-color: #000000;
+  width: 250px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: 4px;
+}
+.intro-img {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+/* posts */
+.posts {
+  float: left;
+  margin-top: 10px;
+  margin-left: 30px;
+  padding: 10px;
+}
+.post {
+  background-color: black;
+  padding: 10px;
+  height: 200px;
+  margin-bottom: 50px;
+}
+.post-img {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+.post-content {
+  float: left;
+  width: 370px;
+  margin-left: 50px;
+}
+.post-content h4 {
+  text-decoration: underline;
+}
+
+/* footer */
+.footer {
+  padding: 50px;
+  background-color: black;
+  min-height: 150px;
+  margin-top: 150px;
+}
+.footer-table {
+  width: 400px;
+  margin: auto;
+}
+
+/* about section */
+.about-content {
+  max-width: 700px;
+  margin-top: 70px;
+  margin-left: 20px;
+}
+
+/* contact section */
+.contact-content {
+  max-width: 700px;
+  margin-left: 200px;
+  margin-top: 40px;
+}
